@@ -1,0 +1,95 @@
+baseURL: https://yourblog.com/
+title: 极简（Jijian）
+theme: jijian
+
+defaultContentLanguage: zh-cn
+languageCode: zh-cn
+hasCJKLanguage: true
+timeZone: "Asia/Shanghai"
+
+enableRobotsTXT: true
+cleanDestinationDir: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+menu:
+  main:
+    - identifier: posts
+      name: BLOG
+      url: /posts/
+      weight: 1
+    - identifier: archives
+      name: 时光轴
+      url: /archives/
+      weight: 10
+      parent: posts
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 20
+
+params:
+  env: production
+  description: 极简（Jijian）HUGO主题，专注于内容的呈现和展示。
+  author: cherish
+
+  assets:
+    favicon: /img/dog.svg
+
+  label:
+    text: 极简（Jijian）
+    iconHeight: 32
+
+
+  mainSections:
+    - posts
+
+  comments: false
+
+  authDuration: 3600
+
+  hidemeta: false
+  DateFormat: 2006年01月02日 15:04:05
+  ShowWordCount: true
+  ShowLastMod: true
+  ShowReadingTime: true
+  readingSpeed: 200
+
+  defaultTheme: auto
+  hideSummary: true
+  ShowShareButtons: true
+  code:
+    showCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowBreadCrumbs: true
+
+  UseHugoToc: false
+  showtoc: true
+  TocPosition: auto
+  tocopen: true
+  tocHover: true
+  tocHoverDelay: 300
+  tocHideDelay: 1500
+
+  ShowPostNavLinks: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  disableThemeToggle: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+minify:
+  disableXML: true
+  minifyOutput: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
+    lineNos: true
