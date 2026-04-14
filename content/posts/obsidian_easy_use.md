@@ -1,3 +1,7 @@
+---
+date: '2026-04-14T13:46:52+08:00'
+title: 'obsidian_easy_use'
+---
 # 教程网站
 
 [markdown常用语法](https://markdown.com.cn/editor)
