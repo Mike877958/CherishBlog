@@ -34,6 +34,14 @@ menu:
       weight: 30
 
 params:
+  comments: true                      # 全局启用评论
+  giscus:
+    repo: "Mike877958/CherishBlog"                 # 仓库名称
+    repoId: "R_kgDOR7NwwA"                 # 仓库 ID
+    category: "Announcements"         # Discussion 分类
+    categoryId: "DIC_kwDOR7NwwM4C60YV"           # 分类 ID
+    lang: zh-CN                       # 语言，对应网页生成的代码
+    termSuffix: "Blog"                # （可选）GitHub Discussions帖子标题后缀，配置后生成讨论帖的标题格式为“文章名-Blog”
   env: production
   description: 极简（Jijian）HUGO主题，专注于内容的呈现和展示。
   author: cherish
@@ -79,7 +87,6 @@ params:
   mainSections:
     - posts
 
-  comments: false
 
   authDuration: 3600
 
