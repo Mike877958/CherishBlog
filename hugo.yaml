@@ -87,7 +87,6 @@ params:
   mainSections:
     - posts
 
-  comments: false
 
   authDuration: 3600
 
