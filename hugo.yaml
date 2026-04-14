@@ -68,11 +68,11 @@ params:
     appendFilePath: true              # 追加文件路径
 
   assets:
-    favicon: /img/dog.svg
+    favicon: /img/robot.svg
 
   label:
     text: Cherish's blog
-    icon: /img/dog.svg               # Logo 图标
+    icon: /img/robot.svg               # Logo 图标
     iconHeight: 32
 
 

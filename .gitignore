@@ -24,6 +24,6 @@ package-lock.json
 /resources/
 
 # 移除的图片
-/img/share.svg
+/img
 # 配置工具文件
 极简(hugo-jijian)简易配置工具-config-tools.html
