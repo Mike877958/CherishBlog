@@ -1,5 +1,5 @@
 baseURL: https://yourblog.com/
-title: 极简（Jijian）
+title: cherish's blog
 theme: jijian
 
 defaultContentLanguage: zh-cn
@@ -28,17 +28,51 @@ menu:
       name: 搜索
       url: /search/
       weight: 20
+    - identifier: link
+      name: blogの入门链接
+      url: https://ihcll.cn/posts/jijian-wiki/wiki-01-rumenzhinan/  # 包含协议（如 https://）的 URL 会自动在新标签页打开
+      weight: 30
 
 params:
   env: production
   description: 极简（Jijian）HUGO主题，专注于内容的呈现和展示。
   author: cherish
+  shareImages: ["/img/share.png"]     # 默认分享图片 (用于社交平台 OpenGraph)
+  defaultImage: "/img/share.png"       # 列表悬停默认封面图 (竖版 3:4，用于列表页悬停预览)
+  topDefaultImage: "/img/share.png" # 文章顶部默认封面图 (横版 32:5，用于文章顶部)
+  ## 门户模式
+  portalMode:
+    enabled: true
+    Title: Cherish
+    Content: |
+      👋 Hello! 欢迎来到我的小站     
+      Knowledge isn't free,you have to pay attention.
+    AlignSocialIconsTo: center
+
+  socialIcons:
+    - name: github
+      url: https://github.com/Mike877958
+      hoverImage: /img/github.png
+    - name: bilibili
+      title: 哔哩哔哩
+      url: https://space.bilibili.com/431237307
+      hoverImage: /img/bilibili.png
+    - name: email
+      title: 发送邮件
+      url: mailto:771234044@qq.com
+
+  editPost:
+    disabled: false                   # 禁用编辑按钮  
+    URL: "https://github.com/Mike877958/CherishBlog/tree/master/content"
+    Text: "我要编辑"                      # 按钮文字
+    appendFilePath: true              # 追加文件路径
 
   assets:
     favicon: /img/dog.svg
 
   label:
-    text: 极简（Jijian）
+    text: Cherish's blog
+    icon: /img/dog.svg               # Logo 图标
     iconHeight: 32
 
 
@@ -59,6 +93,20 @@ params:
   defaultTheme: auto
   hideSummary: true
   ShowShareButtons: true
+  ShareButtons:                       # 分享按钮列表（留空则按语言自动选择默认按钮）
+    # 国内平台
+    - weibo                            # 微博
+    - qq                               # QQ
+    - douban                           # 豆瓣
+    - copylink                         # 复制链接
+    # 国际平台
+    - x                                # Twitter/X
+    - linkedin                         # LinkedIn
+    - reddit                           # Reddit
+    - facebook                         # Facebook
+    - whatsapp                         # WhatsApp
+    - telegram                         # Telegram
+    - ycombinator                      # Hacker News
   code:
     showCopyButtons: true
   ShowRssButtonInSectionTermList: true
