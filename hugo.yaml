@@ -34,6 +34,7 @@ menu:
       weight: 30
 
 params:
+  comments: true                      # 全局启用评论
   env: production
   description: 极简（Jijian）HUGO主题，专注于内容的呈现和展示。
   author: cherish
