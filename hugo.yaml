@@ -17,7 +17,7 @@ menu:
   main:
     - identifier: posts
       name: BLOG
-      url: /posts/
+      url: /categories/
       weight: 1
     - identifier: archives
       name: 时光轴
@@ -66,11 +66,15 @@ params:
     imageHeight: 160                  # 图片高度（像素）
     imageTitle:                   # 图片标题（alt 属性）
     buttons:                          # 可选按钮
-      - name: 文章
-        url: posts
-      - name: 关于
+      - name: 📝 文章
+        url: categories
+      - name: 🔍 搜索
+        url: search
+      - name: 📂 归档
+        url: archives
+      - name: ℹ️ 关于
         url: about
-
+        
   socialIcons:
     - name: github
       url: https://github.com/Mike877958

@@ -1,6 +1,11 @@
 ---
 date: '2026-04-06T22:07:52+08:00'
 title: 'To First Blog'
+categories: ["网站初期测试"]
+tags: ["测试","教程"]
+summary: "如何建立自己的一个Blog网站" # 给人看的
+description: "blog" # 给SEO看的
+keywords: ["blog"] # 给SEO看的
 ---
 ## 软件准备
 #### - powershell

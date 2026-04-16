@@ -1,6 +1,11 @@
 ---
 date: '2026-04-14T15:12:26+08:00'
 title: 'Code_test'
+categories: ["网站初期测试"]
+tags: ["测试"]
+summary: "网站测试html语法" # 给人看的
+description: "html" # 给SEO看的
+keywords: ["html"] # 给SEO看的
 ---
 # 音乐播放器
 {{< rawhtml >}}

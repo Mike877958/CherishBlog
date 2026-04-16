@@ -1,6 +1,12 @@
 ---
 date: '2026-04-14T13:46:52+08:00'
 title: 'obsidian_easy_use'
+pin: 1  # 新增置顶功能，数字越小越靠前，仅支持正整数
+categories: ["obsidian简易教程"]
+tags: ["教程"]
+summary: "如何使用obsidian" # 给人看的
+description: "obsidian" # 给SEO看的
+keywords: ["obsidian"] # 给SEO看的
 ---
 # 教程网站
 
