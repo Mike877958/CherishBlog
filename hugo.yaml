@@ -45,28 +45,43 @@ params:
   env: production
   description: 极简（Jijian）HUGO主题，专注于内容的呈现和展示。
   author: cherish
-  shareImages: ["/img/share.png"]     # 默认分享图片 (用于社交平台 OpenGraph)
-  defaultImage: "/img/share.png"       # 列表悬停默认封面图 (竖版 3:4，用于列表页悬停预览)
-  topDefaultImage: "/img/share.png" # 文章顶部默认封面图 (横版 32:5，用于文章顶部)
+  shareImages: ["/img/nerd_face_color.png"]     # 默认分享图片 (用于社交平台 OpenGraph)
+  defaultImage: "/img/nerd_face_color.png"       # 列表悬停默认封面图 (竖版 3:4，用于列表页悬停预览)
+  topDefaultImage: "/img/nerd_face_color.png" # 文章顶部默认封面图 (横版 32:5，用于文章顶部)
   ## 门户模式
   portalMode:
-    enabled: true
+    enabled: false
     Title: Cherish
     Content: |
       👋 Hello! 欢迎来到我的小站     
       Knowledge isn't free,you have to pay attention.
     AlignSocialIconsTo: center
+  ## 名片模式  
+  cardMode:
+    enabled: true                     # 启用名片模式
+    title: Cherish's Blog             # 主标题
+    subtitle: Welcome to my blog!     # 副标题/签名
+    imageUrl: /img/robot.svg         # 头像图片路径
+    imageWidth: 160                   # 图片宽度（像素）
+    imageHeight: 160                  # 图片高度（像素）
+    imageTitle:                   # 图片标题（alt 属性）
+    buttons:                          # 可选按钮
+      - name: 文章
+        url: posts
+      - name: 关于
+        url: about
 
   socialIcons:
     - name: github
       url: https://github.com/Mike877958
-      hoverImage: /img/github.png
+      hoverImage: /img/github.svg
     - name: bilibili
       title: 哔哩哔哩
       url: https://space.bilibili.com/431237307
-      hoverImage: /img/bilibili.png
+      hoverImage: /img/Bilibili-copy.svg
     - name: email
       title: 发送邮件
+      hoverImage: /img/mail.svg
       url: mailto:771234044@qq.com
 
   editPost:
