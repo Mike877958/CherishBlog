@@ -5,7 +5,20 @@ title: 'Code_test'
 # 音乐播放器
 {{< rawhtml >}}
 <div style="color: red; font-size: 24px;">
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=3360248690&auto=1&height=66"></iframe>
+  <iframe
+    frameborder="no"
+    border="0"
+    marginwidth="0"
+    marginheight="0"
+    width="330"
+    height="86"
+    allow="autoplay; encrypted-media"
+    src="https://music.163.com/outchain/player?type=2&id=3360248690&auto=0&height=66"
+  ></iframe>
+  <p style="font-size: 14px; margin-top: 8px; color: #666;">
+    如果 iPhone Safari 无法加载播放器，
+    <a href="https://music.163.com/song?id=3360248690" target="_blank" rel="noopener noreferrer">点击这里在网易云打开</a>
+  </p>
 </div>
 {{< /rawhtml >}}
 {{< rawhtml >}}
